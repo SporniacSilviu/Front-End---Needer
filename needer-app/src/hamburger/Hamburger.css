@@ -1,6 +1,5 @@
-#Hamburger {
+.Hamburger {
     font-family: sans-serif;
-    position: absolute;
     /* Give app full page to work with */
     height: 100vh;
   }
