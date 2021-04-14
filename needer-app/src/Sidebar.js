@@ -13,6 +13,9 @@ export default props => {
                 Statistics
             </a>
             <a className="menu-item" href="/">
+                Help
+            </a>
+            <a className="menu-item" href="/">
                 Complete Form
             </a>
             <a className="menu-item" href="/">
