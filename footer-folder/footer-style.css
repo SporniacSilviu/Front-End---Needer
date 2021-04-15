@@ -4,7 +4,6 @@ dark blue:#36506b;
 Cyan:#3ec1c9;
 ALb:#F5F5F5;
 roz:#fc5183;
-
 Dark blue - navbar, buttons, footer, background componente
 Cyan - dropdown menu, hover butoane
 #F5F5F5 - text
@@ -17,13 +16,14 @@ Roz - padding,margins,border butoane, div-uri, hr-uri
 }
 
 .footer {
-	width: 100%;
 	background-color: #36506b;
-	margin: 0px;
 	color: #F5F5F5;
 	font-size: 1.5em;
-	font-family: Roboto-Light
-}
+	font-family: Roboto-Light;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+  }
 
 .container {
 	display: flex;
@@ -121,4 +121,25 @@ Roz - padding,margins,border butoane, div-uri, hr-uri
 	height: 40px;
 	width: 40px;
 	margin: 0;
+}
+@media screen and (max-width:600px) {
+	.container {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		margin: 0%;
+	}
+	.Info,.Follow,.Contact{
+		width: 100%;
+		margin: 0;
+	}
+}
+
+@media screen and (max-width:1190px) {
+	.Contact article{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	
 }
