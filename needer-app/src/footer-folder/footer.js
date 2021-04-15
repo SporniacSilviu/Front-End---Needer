@@ -7,7 +7,7 @@ import ist from "./icons/instagram.svg"
 
 function Footer() {
 	const ColoredLine = ({ color }) => (
-		<hr 
+		<hr
 			style={{
 				color: color,
 				backgroundColor: color,
@@ -15,7 +15,7 @@ function Footer() {
 				border: 0,
 				margin: 0
 			}}
-			
+
 		/>
 	);
 	//code
@@ -24,29 +24,30 @@ function Footer() {
 			<div class="container">
 				<section class="Info">
 					<div class="title1">
-					<ColoredLine color="#fc5183" class="hrUp"/>
-					<p>Informații</p>
-					<ColoredLine color="#fc5183" class="hrDown"/>
+						<ColoredLine color="#fc5183" class="hrUp" />
+						<p>Informații</p>
+						<ColoredLine color="#fc5183" class="hrDown" />
 					</div>
 					<article>
 						Despre noi și munca noastră
 						</article>
 					<article>
 						Întrebări frecvente
-						</article>
+					</article>
 				</section>
 				<section class="Contact">
 					<div class="title2">
-
-					<ColoredLine color="#fc5183" class="hrUp"/>
-					<p>Contact</p>
-					<ColoredLine color="#fc5183" class="hrDown"/>
+						<ColoredLine color="#fc5183" class="hrUp" />
+						<p>Contact</p>
+						<ColoredLine color="#fc5183" class="hrDown" />
 					</div>
 					<article>
-						Scrieți-ne: 
+						<span>Scrieți-ne:</span>
+						<span>
 							<a href="mailto:proiectIP@info.uaic.ro">
-							   proiectIP@info.uaic.ro
+								proiectIP@info.uaic.ro
 							</a>
+						</span>
 					</article>
 					<article>
 						Sunați-ne: 0232 077 770
@@ -56,16 +57,16 @@ function Footer() {
 
 				<section class="Follow">
 					<div class="title3">
-						
-					<ColoredLine color="#fc5183" class="hrUp"/>
-					<p>Urmăriți-ne</p>
-					<ColoredLine color="#fc5183" class="hrDown"/>
+
+						<ColoredLine color="#fc5183" class="hrUp" />
+						<p>Urmăriți-ne</p>
+						<ColoredLine color="#fc5183" class="hrDown" />
 					</div>
 					<div class="Icons">
-					<img src={fb} id="fbIcon" alt="FaceBook Link"/>
-					<img src={tw} id="twIcon" alt="Twitter Link"/>
-					<img src={ist} id="istIcon" alt="Instageam Link"/>
-					<img src={yt} id="ytIcon" alt="Youtube Link"/>
+						<img src={fb} id="fbIcon" alt="FaceBook Link" />
+						<img src={tw} id="twIcon" alt="Twitter Link" />
+						<img src={ist} id="istIcon" alt="Instageam Link" />
+						<img src={yt} id="ytIcon" alt="Youtube Link" />
 					</div>
 				</section>
 			</div>
